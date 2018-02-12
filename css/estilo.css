@@ -81,23 +81,23 @@ ul.inline li, ol.inline li{
 	margin-right: 1em;
 }
 ul.inline li:last-child, ol.inline li:last-child{
-	margin-right: 15px;
+	margin-right: 1em;
 }
 ul.sem-marcador, ol.sem-marcador{
 	list-style: none;
 }
 a.botao, input.botao{
 	background: red;
-	padding: 5px 10px;
-	border-radius: 3px;
+	padding: 5em 10em;
+	border-radius: 3em;
 	color: #ebebeb;
 	cursor: pointer;
-	margin: 5px 0;
+	margin: 1em 0;
 	display: inline-block;
 	border: none;
 }
 a.botao:hover, input.botao:hover{
-	background: red;
+	background: black;
 	text-decoration: none;
 }
 img{
@@ -107,7 +107,7 @@ img{
 /* layout do site*/
 .header{
 	background: linear-gradient(grey, white);
-	max-height: 64px;
+	max-height: 40em;
 }
 h1.logo{
 
@@ -118,7 +118,7 @@ h1.logo{
 .footer{
 	background: linear-gradient(#f1f2ea,black);
 	color: #ebebeb;
-	padding: 20px 0;
+	padding: 2em 0;
 	text-align: center;
 	font-weight: 100;
 }
@@ -128,8 +128,8 @@ h1.logo{
 	margin-top: 0;
 }
 .menu li a{
-	padding: 5px 10px;
-	border-radius: 3px;
+	padding: 0.5em 1em;
+	border-radius: 3em;
 }
 .menu li a:hover{
 	text-decoration: none;
@@ -140,34 +140,37 @@ h1.logo{
 	text-transform: uppercase;
 	text-align: right;
 	margin-bottom: 0;
+	height: 2.9em;
 }
 .menutopo li a{
-	padding: 5px 10px;
-	border-radius: 3px;
+	padding: 0.2em 0.5em;
+	border-radius: 0.2em;
+	background: rgba(220,220,220,0.3);
+	color: #B8860B;
 }
 .menutopo li a:hover{
 	text-decoration: none;
 	background: #1f3c58;
-	color: #ebebeb;
+	color: #B8860B;
 }
 ul.noticias li{
 	clear: both;
 	display: block;
 	overflow: hidden;
-	margin-bottom: 20px;
+	margin-bottom: 2em;
 }
 ul.noticias li img{
-	width: 70px;
+	width: 4em;
 	height: auto;
-	margin-right: 10px;
+	margin-right: 1em;
 	float: left;
 }
 ul.noticias li h4{
-	margin: -2px 0 5px 0;
+	margin: -2em 0 1em 0;
 	font-weight: 500;
 }
 ul.noticias li p{
-	margin: 5px 0;
+	margin: 1em 0;
 	font-weight: 300;
 }
 ul.noticias li p a{
@@ -175,17 +178,17 @@ ul.noticias li p a{
 }
 .contato label{
 	display: block;
-	font-size: 13px;
+	font-size: 1em;
 	font-weight: 300;
 }
 .contato input, .contato textarea{
 	display: block;
-	margin-bottom: 15px;
-	padding: 5px 2%;
+	margin-bottom: 1em;
+	padding: 0.5em 2%;
 	width: 96%;
 }
 .contato textarea{
-	height: 150px;
+	height: 10em;
 }
 .contato input.botao{
 	width: auto;
@@ -198,11 +201,28 @@ ul.noticias li p a{
   overflow: auto;
 }
 .centerlin{
-	display: flex;
+	/*display: flex;*/
   flex-direction: line;
   justify-content: center;
   resize: vertical;
-  overflow: auto;
+  /*overflow: auto;*/
+}
+.achetez{
+	position: relative;
+  	top: -5em;
+  	right: -30em;
+  	background: #B8860B;
+	color: #ebebeb;
+	padding: 0.2em 0.5em;
+	border-radius: 0.2em;
+	font-size: 1.5em;
+	text-transform: uppercase;
+}
+
+.achetez:hover{
+	text-decoration: none;
+	background: #1f3c58;
+	color: #ebebeb;
 }
 .imgcen{
 	width: 100%
@@ -225,6 +245,6 @@ ul.noticias li p a{
 #menubaix{
     background-image: -webkit-linear-gradient( transparent, black) !important;
     background-image: linear-gradient(transparent, black);
-    font-size: 1.5em;
+    font-size: 1.2em;
 
-}    
+} 
